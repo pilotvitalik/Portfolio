@@ -162,3 +162,99 @@
   color: black;
   float: right;
 }
+/*Основная информация*/
+.provide {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 79.4174%;
+  height: 504.52001722px;
+  padding: 0;
+  margin: 92.9832px auto 0 auto;
+}
+.provide div:first-child{
+  display: flex;
+  width: 100%;
+  height: 500.52001722px;
+}
+.provide div:first-child .aboutUs{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.provide div:first-child .aboutUs h4{
+  display: inline-block;
+  position: relative;
+  width: 424.4511px;
+  height: 74.9031px;
+  margin: 5.1657px 0 0 0;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 35.5px;
+  font-weight: 700;
+  line-height: 37px;
+  text-transform: uppercase;
+  letter-spacing: 0.42px;
+}
+.provide div:first-child .aboutUs p{
+  display: inline-block;
+  position: relative;
+  width: 438.2264px;
+  height: 84.3737px;
+  margin: 43.0478px 0 0 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13.7753px;
+  line-height: 20px;
+  text-align: justify;
+}
+.provide div:first-child .aboutUs p a{
+  text-decoration: none;
+  color: #000000;
+}
+.provide div:first-child .aboutUs p a:hover{
+  cursor: pointer;
+}
+.provide div:first-child .aboutUs a{
+  width: 195.4369px;
+  height: 47.3526px;
+  padding: 0;
+  margin: 49.9354px 0 0 0;
+  border-radius: 5px;
+}
+.provide div:first-child .aboutUs a div{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: solid 2px #ff0000;
+  border-radius: 5px;
+}
+.provide div:first-child .aboutUs a div span{
+  display: block;
+  position: relative;
+  width: 95px;
+  height: 18px;
+  padding: 0;
+  margin: 13px auto;
+  color: #ff2d2d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15.4972px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.32px;
+}
+.provide div:first-child .detailed{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.provide>div:last-child{
+  display: flex;
+  width: 99.6013%;
+  height: 2px;
+  margin: 0 auto;
+  background: #ececec;
+}
