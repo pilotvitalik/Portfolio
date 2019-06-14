@@ -1,0 +1,164 @@
+/*Переменные header*/
+.wrapper {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+/*Заголовок сайта*/
+.header {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 592.33749462px;
+  margin: 0 auto;
+  background: #f6f2f2;
+  /*Навигационное меню*/
+}
+.header .navbar {
+  display: block;
+  position: relative;
+  width: 79.1007%;
+  height: 76.62505381px;
+  padding: 0;
+  margin: 14.5px auto 0 auto;
+  background: #000000;
+  opacity: 80%;
+}
+.header .navbar .tab {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 375.3766681px;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+.header .navbar .tab p {
+  display: inline-block;
+  width: 77.48600947px;
+  height: 76.62505381px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12.05337925px;
+  font-weight: 700;
+  line-height: 76.62505381px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.49px;
+  margin: auto 0;
+}
+.header .navbar .tab p a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #e0e0e0;
+}
+.header .navbar .tab p a:hover {
+  background: #ff3f40;
+}
+.header .navbar .tab p:first-child {
+  background: #ff3f40;
+  width: 77.48600947px;
+}
+.header .content {
+  display: block;
+  position: relative;
+  width: 79.1007%;
+  height: 306.50021524px;
+  padding: 0;
+  margin: 88.67843306px auto 95.56607835px auto;
+  opacity: 80%;
+}
+.header .content div {
+  display: block;
+  position: relative;
+  width: 502px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.header .content div h4 {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: 45px;
+  color: #000000;
+}
+.header .content div h4:last-child {
+  margin: 15px 0 0 0;
+  letter-spacing: 6px;
+}
+.header .content p {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 127.4214378px;
+  width: 440.80929832px;
+  height: 88.67843306px;
+  padding: 0;
+  color: black;
+  float: left;
+  opacity: 0.7;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13.77529057px;
+  font-weight: 400px;
+  line-height: 28px;
+  text-align: justify;
+}
+.header .content p a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #000000;
+}
+.header .content p:hover {
+  cursor: pointer;
+}
+.header .content form {
+  display: block;
+  position: absolute;
+  float: left;
+  bottom: 10.33146793px;
+  left: 0;
+  width: 195.436935px;
+  height: 47.35256134px;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  background: #ff2d2d;
+}
+.header .content form button {
+  display: inherit;
+  position: inherit;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  color: #ffffff;
+  background: #ff2d2d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15.49720189px;
+  font-weight: 700;
+  line-height: 29.32414981px;
+  letter-spacing: 0.32px;
+  cursor: pointer;
+}
+.header .content iframe {
+  display: block;
+  position: relative;
+  width: 474.38656909px;
+  height: 306.50021524px;
+  margin: 0;
+  padding: 0;
+  color: black;
+  float: right;
+}

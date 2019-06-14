@@ -1,0 +1,14 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+body .wrapper {
+  padding: 0;
+  margin: 0;
+}
+body .wrapper .header,
+body .wrapper .common,
+body .wrapper .footer {
+  padding: 0;
+}

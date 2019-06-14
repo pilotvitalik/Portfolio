@@ -1,0 +1,186 @@
+@bdef: solid 1px red;
+	/*Переменные header*/
+@hf: 688px;//первоначальная высота блока
+@hx: 1.1615;//зависимость значения по умолч. от необходимой
+@hh: @hf/@hx; //высота блока текущая
+	//.navbar
+@hnf: 89px;// высота блока по умолч.
+@hnmf: 29px;//верхний внешний отступ блока
+@hnh: @hnf/@hx;
+@hnm: 29px/2;
+	//.tab
+@hntf: 436px;// ширина блока с текстом по умолч.
+@hnt: @hntf/@hx;//ширина блока с текстом фактическая
+@hntpfzf: 14px;//высота шрифта по умолч.
+@hntpfz: @hntpfzf/@hx;//высота шрифта фактическая
+@hcont: 356px/1.1615;//высота блока .content
+@hcontmt: 103px/1.1615;//отступ сверху для блока .content
+@hcontmm: 111px/1.1615;//отступ сверху для блока .content
+
+
+
+.wrapper{
+	width: 100%;
+	height: auto;
+	background: #ffffff;
+}
+/*Заголовок сайта*/
+.header{
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	width: 100%;
+	height: @hh;
+	margin: 0 auto;
+	background: #f6f2f2;
+/*Навигационное меню*/
+		.navbar{
+			display: block;
+			position: relative;
+			width: 79.1007%;
+			height: @hnh;
+			padding: 0;
+			margin: @hnm auto 0 auto;
+			background: #000000;
+			opacity: 80%;
+				.tab{
+					display: flex;
+					position: relative;
+					justify-content: space-between;
+					width: @hnt;
+					height: 100%;
+					padding: 0;
+					margin: 0 auto;
+					p{
+						display: inline-block;
+						width: 90px/1.1615;
+						height: 89px/1.1615;
+						font-family: "Open Sans", sans-serif;
+						font-size: @hntpfz;
+						font-weight: 700;
+						line-height: 89px/1.1615;
+						text-transform: uppercase;
+						text-align: center;
+						letter-spacing: 0.49px;
+						margin: auto 0;
+						a{
+							display: inline-block;
+							width: 100%;
+							height: 100%;
+							text-decoration: none;
+							color: #e0e0e0;
+						}
+						a:hover{
+							background: #ff3f40;
+						}
+					}
+					p:first-child{
+						background: #ff3f40;
+						width: 90px/1.1615;
+					}
+
+				}
+		}
+//Блок с видео
+		.content{
+			display: block;
+			position: relative;
+			width: 79.1007%;
+			height: @hcont;
+			padding: 0;
+			margin: @hcontmt auto @hcontmm auto;
+			opacity: 80%;
+			div{
+				display: block;
+				position: relative;
+				width: 502px;
+				height: auto;
+				margin: 0;
+				padding: 0;
+				float: left;
+				h4{
+					display: inline-block;
+					position: relative;
+					padding: 0;
+					margin: 0;
+					vertical-align: middle;
+					font-family: "Open Sans", sans-serif;
+					font-size: 50px;
+					font-weight: 400;
+					text-transform: uppercase;
+					letter-spacing: 1.5px;
+					line-height: 45px;
+					color: #000000;
+				}
+				h4:last-child{
+					margin: 15px 0 0 0;
+					letter-spacing: 6px;
+				}
+			}
+			p{
+				display: inline-block;
+				position: absolute;
+				left: 0;
+				top: 148px/1.1615;
+				width: 512px/1.1615;
+				height: 103px/1.1615;
+				padding: 0;
+				color: black;
+				float: left;
+				opacity: 0.7;
+				font-family: "Open Sans", sans-serif;
+				font-size: 16px/1.1615;
+				font-weight: 400px;
+				line-height: 28px;
+				text-align: justify;
+				a{
+					display: inline-block;
+					width: 100%;
+					height: 100%;
+					text-decoration: none;
+					color: #000000;
+				}
+			}
+			p:hover{
+				cursor: pointer;
+			}
+			form{
+				display: block;
+				position: absolute;
+				float: left;
+				bottom: 12px/1.1615;
+				left: 0;
+				width: 227px/1.1615;
+				height: 55px/1.1615;
+				margin: 0;
+				padding: 0;
+				border-radius: 5px;
+				background: #ff2d2d;
+				button{
+					display: inherit;
+					position: inherit;
+					width: 100%;
+					height: 100%;
+					border-radius: inherit;
+					color: #ffffff;
+					background: #ff2d2d;
+					font-family: "Open Sans", sans-serif;
+					font-size: 18px/1.1615;
+					font-weight: 700;
+					line-height: 34.06px/1.1615;
+					letter-spacing: 0.32px;
+					cursor: pointer;
+				}
+			}
+			iframe{
+				display: block;
+				position: relative;
+				width: 551px/1.1615;
+				height: @hcont;
+				margin: 0;
+				padding: 0;
+				color: black;
+				float: right;
+			}
+		}
+}
