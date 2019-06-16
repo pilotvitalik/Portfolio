@@ -797,7 +797,7 @@
   width: auto;
   height: auto;
   position: relative;
-  margin: 0 auto 43px 0;
+  margin: 0 auto 21.5px 0;
   color: #000000;
   opacity: 0.8;
   font-family: "Open Sans", sans-serif;
@@ -817,7 +817,7 @@
   opacity: 0.7;
   font-family: "Open Sans", sans-serif;
   font-size: 12.7px;
-  line-height: 14px;
+  line-height: 20px;
 }
 .contact_us .description span{
   display: block;
@@ -941,4 +941,57 @@
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
   line-height: 14px;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 95px;
+  padding: 0;
+  margin: 94px 0 0 0;
+  background: #313030;  
+}
+.footer h5{
+  display: inline-block;
+  width: 297px;
+  height: 16px;
+  margin: auto;
+  color: #b8b8b8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12.8px;
+  line-height: 15px;
+}
+.footer .social{
+  display: flex;
+  flex-direction: row;
+  width: 159px;
+  height: 28px;
+  padding: 0;
+  margin: auto;
+  justify-content: space-between;
+}
+.footer .social a{
+  display: block;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  margin: 0;
+  border-radius: 28px;
+}
+.social-twitter{
+  background: url("../img/Twitter.png");
+  background-size: cover;
+}
+.social-linkedin{
+  background: url("../img/LinkedIn.png");
+  background-size: cover;
+}
+.social-google{
+  background: url("../img/Google.png");
+  background-size: cover;
+}
+.social-facebook{
+  background: url("../img/Facebook.png");
+  background-size: cover;
 }
