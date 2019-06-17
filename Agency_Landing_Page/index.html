@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
 	<link href="css/main_1140.css" rel="stylesheet" type="text/css" media="(min-width: 1140px)" />
+	<script src="js/index.js" defer></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -25,7 +26,7 @@
 				</div>
 				<p><a href="#">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</a></p>
 				<form name="contactUs">
-					<button type="button" value="Contact Us" name="ContactUs">Contact us</Button>
+					<button type="button" value="Contact Us" name="ContactUs" href="#contact" onclick="link_to_contact()">Contact us</Button>
 				</form>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/hJ-hq4B72gs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
@@ -109,10 +110,10 @@
 						</div>
 					</div>
 					<div>
-						<a href="#"><img src="img/Team_2.png" alt="Anna"></a>
-						<a href="#"><img src="img/Team_3.png" alt="Mark"></a>
-						<a href="#"><img src="img/Team_4.png" alt="Tom"></a>
-						<a href="#"><img src="img/Team_5.png" alt="Jack"></a>
+						<a href="#"><p>Anna Markel</p><img src="img/Team_2.png" alt="Anna"></a>
+						<a href="#"><p>David Coperfild	</p><img src="img/Team_3.png" alt="Mark"></a>
+						<a href="#"><p>Tom Jonson</p><img src="img/Team_4.png" alt="Tom"></a>
+						<a href="#"><p>Freddy Mercuri</p><img src="img/Team_5.png" alt="Jack"></a>
 					</div>
 				</div>
 			</div>
@@ -125,7 +126,7 @@
 				<input type="submit" value="SUBSCRIBE">
 			</form>
 		</div>
-		<div class="contact_us">
+		<div class="contact_us" id="contact">
 			<div class="description">
 				<h5>get in touch</h5>	
 				<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
