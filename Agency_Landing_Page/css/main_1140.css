@@ -620,9 +620,16 @@
   padding: 0;
   margin: auto 0 0 0;
 }
-.team .about_team img{
+.team .about_team div:first-child{
   display: block;
   width: 276px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.team .about_team div:first-child img{
+  display: block;
+  width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -644,9 +651,9 @@
   padding: 0;
   margin: 0;
 }
-.team .about_team .fotoTeam div:first-child h5{
+.team .about_team .fotoTeam div:first-child p:first-child{
   display: inline-block;
-  width: 178px;
+  width: 220px;
   margin: 13px auto 0 0;
   color: #000000;
   opacity: 0.8;
@@ -656,7 +663,7 @@
   text-transform: uppercase;
   letter-spacing: 0.28px;
 }
-.team .about_team .fotoTeam div:first-child p{
+.team .about_team .fotoTeam div:first-child p:last-child{
   display: inline-block;
   width: 542px;
   margin: 30px auto 0 0;
@@ -733,6 +740,9 @@
   100%{visibility: visible;
         height: 30px;
   }
+}
+.team .about_team .fotoTeam div:last-child a:hover{
+  cursor: pointer;
 }
 .team .about_team .fotoTeam div:last-child a:hover p{
   animation: image_name 0.25s linear;
@@ -919,6 +929,11 @@
   letter-spacing: 0.32px;
 }
 .contact_us div:nth-child(2) form input:last-child:hover{
+  cursor: pointer;
+}
+.contact_us div:nth-child(2) form input:last-child:active{
+  background: #ff1a1a;
+  color: #e6e6e6;
   cursor: pointer;
 }
 .contact_us div:nth-child(2) div:nth-child(2){

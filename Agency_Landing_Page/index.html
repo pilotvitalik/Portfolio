@@ -6,7 +6,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
 	<link href="css/main_1140.css" rel="stylesheet" type="text/css" media="(min-width: 1140px)" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
 	<script src="js/index.js" defer></script>
+	<script src="js/test-jquery.js" defer></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -26,7 +28,7 @@
 				</div>
 				<p><a href="#">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</a></p>
 				<form name="contactUs">
-					<button type="button" value="Contact Us" name="ContactUs" href="#contact" onclick="link_to_contact()">Contact us</Button>
+					<button type="button" value="Contact Us" name="ContactUs" onclick="link_to_contact()">Contact us</Button>
 				</form>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/hJ-hq4B72gs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
@@ -90,17 +92,17 @@
 				<a href="#"><img src="img/ALL_8.png"></a>
 			</div>
 		</div>
-		<div class="team">
+		<div class="team" id="team">
 			<h5>Meet our team</h5>
 			<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print tem-<br/>plate.</p>
 			<div>
 				<span></span>
 			</div>
 			<div class="about_team">
-				<img src="img/Team_1.png" alt="Mark Waugh">
+				<div><img src="img/Team_1.png" alt="Mark Waugh" id="m1" class="main"></div>
 				<div class="fotoTeam">
 					<div>
-						<h5>mark waugh</h5>
+						<p>Mark Waugh</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
 						<div class="socialTeam">
 							<p><a href="#">Facebook</a></p>
@@ -110,10 +112,10 @@
 						</div>
 					</div>
 					<div>
-						<a href="#"><p>Anna Markel</p><img src="img/Team_2.png" alt="Anna"></a>
-						<a href="#"><p>David Coperfild	</p><img src="img/Team_3.png" alt="Mark"></a>
-						<a href="#"><p>Tom Jonson</p><img src="img/Team_4.png" alt="Tom"></a>
-						<a href="#"><p>Freddy Mercuri</p><img src="img/Team_5.png" alt="Jack"></a>
+						<a class="n1"><p>Anna Markel</p><img src="img/Team_2.png" alt="Anna"></a>
+						<a class="n2"><p>David Coperfild</p><img src="img/Team_3.png" alt="David"></a>
+						<a class="n3"><p>Tom Jonson</p><img src="img/Team_4.png" alt="Tom"></a>
+						<a class="n4"><p>Freddy Mercuri</p><img src="img/Team_5.png" alt="Freddy"></a>
 					</div>
 				</div>
 			</div>
