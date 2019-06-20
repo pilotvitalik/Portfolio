@@ -9,4 +9,7 @@ $(".fotoTeam div:last a").click(function(){
 				$(this).children("img").before($(".fotoTeam div:first p:first"));
 			};
 	});
-	});
+});
+$(".content form button").click(function(){
+	$("html,body").scrollTop($("#contact").offset().top);
+})
