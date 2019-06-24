@@ -165,12 +165,21 @@ body{
 	padding: 0;
 	margin: 67px auto 0 auto;
 }
-.common .banner div:first-child img{
+.common .banner div:first-child img:first-child{
 	display: block;
+	z-index: 1;
 	width: 278px;
 	height: 100%;
 	padding: 0;
 	margin: 0;
+}
+.common .banner div:first-child img:nth-child(2){
+	display: block;
+	position: absolute;
+	width: 213px;
+	height: 24px;
+	padding: 0;
+	margin: 313px 0 0 36px;
 }
 .common .banner div:first-child form{
 	display: flex;
@@ -240,4 +249,143 @@ body{
 }
 .common .banner ul li:nth-child(4){
 	background: #79d8cc;
+}
+.categories{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	height: 190px;
+	padding: 0;
+	margin: 0;
+	background: #ffffff;
+}
+.categories .prev,
+.categories .next{
+	display: block;
+	width: 29px;
+	height: 88px;
+	padding: 0;
+	margin: auto 0;
+	background: transparent;
+	border: none;
+	outline: 0;
+}
+.categories .prev:hover,
+.categories .next:hover{
+	cursor: pointer;
+}
+.categories div img{
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.categories div h5{
+	display: inline-block;
+	color: #afafaf;
+	font-family: "BebasNeue";
+}
+.categories div:nth-child(2){
+	display: block;
+	width: 277px;
+	height: 151px;
+	padding: 0;
+	margin: auto 0;
+}
+.categories div:nth-child(2) img{
+	width: 202px;
+	height: 100%;
+}
+.categories div:nth-child(2) h5{
+	
+	width: 75px;
+	height: 44px;
+	margin: 32px 0 29px 0;
+	color: #afafaf;
+	font-family: "BebasNeue";
+	font-size: 27px;	
+	line-height: 25px;
+}
+.categories div button:hover{
+	cursor: pointer;
+}
+.categories div:nth-child(2) button{
+	display: block;
+	width: 59px;
+	height: 32px;
+	padding: 0;
+	margin: 0 0 23px 0;
+	color: #ffffff;
+	font-family: "BebasNeue";
+	font-size: 19px;	
+	line-height: 34px;
+	background: #3cc395;
+	border: none;
+	border-radius: 5px;
+}
+.categories div:nth-child(3){
+	display: block;
+	width: 260px;
+	height: 132px;
+	padding: 0;
+	margin: auto 0;
+}
+.categories div:nth-child(3) img{
+	width: 132px;
+	height: 132px;
+}
+.categories div:nth-child(3) h5{
+	width: 76px;
+	height: 44px;
+	margin: 28px 0 20px 52px;
+	font-size: 27px;	
+	line-height: 25px;
+}
+.categories div:nth-child(3) button{
+	display: inline-block;
+	width: 59px;
+	height: 32px;
+	padding: 0;
+	margin: 0 0 23px 52px;
+	color: #ffffff;
+	font-family: "BebasNeue";
+	font-size: 19px;	
+	line-height: 34px;
+	background: #3cc395;
+	border: none;
+	border-radius: 5px;
+}
+.categories div:nth-child(4) {
+	display: block;
+	width: 223px;
+	height: 127px;
+	padding: 0;
+	margin: auto 0;
+}
+.categories div:nth-child(4) img{
+	width: 71px;
+	height: 100%;
+	margin: 0;
+}
+.categories div:nth-child(4) h5{
+	width: 75px;
+	height: 44px;
+	margin: 28px 0 20px 77px;
+	font-size: 27px;	
+	line-height: 25px;
+}
+.categories div:nth-child(4) button{
+	display: inline-block;
+	width: 59px;
+	height: 32px;
+	padding: 0;
+	margin: 0 0 3px 77px;
+	color: #ffffff;
+	font-family: "BebasNeue";
+	font-size: 19px;	
+	line-height: 34px;
+	background: #3cc395;
+	border: none;
+	border-radius: 5px;
 }
