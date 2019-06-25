@@ -389,3 +389,118 @@ body{
 	border: none;
 	border-radius: 5px;
 }
+.products{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+.title{
+	display: block;
+	width: 100%;
+	height: 67px;
+	padding:0;
+	margin: 0;
+	background: transparent;
+}
+.title h5{
+	width: 195px;
+	height: 22px;
+	padding: 0;
+	margin: 24px 0 0 186px;
+	color: #ffffff;
+	font-family: "BebasNeue";
+	font-size: 31px;
+	line-height: 25px;
+}
+.products div:last-child{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 688px;
+	padding: 0;
+	margin: 0;
+	background: #ffffff;
+}
+.products div:last-child div:first-child,
+.products div:last-child div:nth-child(4){
+	margin: 48px 0 47px 218px;
+}
+.products div:last-child div:nth-child(3),
+.products div:last-child div:nth-child(6){
+	margin: 48px 213px 47px 0;
+}
+.products div:last-child div{
+	display: block;
+	width: 253px;
+	height: 260px;
+	padding: 0;
+	margin: 48px 0 47px 0;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.16);
+}
+.products div:last-child div div:first-child{
+	display: block;
+	width: 100%;
+	height: 131px;
+	padding: 0;
+	margin: 19px 0 0 0;
+	box-shadow: none;
+}
+.products div:last-child div  div:first-child img{
+	display: block;
+	width: auto;
+	height: 95%;
+	padding: 0;
+	margin: 2px auto;
+}
+.products div:last-child div h5,
+.products div:last-child div p{
+	color: #afafaf;
+	font-family: "BebasNeue";
+	font-size: 27px;
+	line-height: 25px;
+}
+.products div:last-child div h5{
+	width: 144px;
+	height: 19px;
+	margin: 13px auto 0 auto;
+	text-align: center;
+}
+.products div:last-child div p{
+	width: 41px;
+	height: 22px;
+	margin: 19px 0 40px 69px;
+	float: left;
+}
+.products div:last-child div button{
+	display: block;
+	width: 74px;
+	height: 34px;
+	padding: 0;
+	margin: 12px 54px 35px 0; 
+	float: right;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+	font-family: "BebasNeue";
+	font-size: 20px;
+	line-height: 20.19px;
+	background: #3cc395;
+	outline: 0;
+}
+.products div:last-child div button:hover{
+	cursor: pointer;
+}
+.products div:last-child div span{
+	display: block;
+	position: absolute;
+	width: 254px;
+	height: 5px;
+	padding: 0;
+	margin: 75px 0 0 0;
+	background: #3cc395;
+}
