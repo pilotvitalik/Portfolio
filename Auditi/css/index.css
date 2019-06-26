@@ -3,6 +3,11 @@
 	src: local("BebasNeue");
     src: url(../fonts/BebasNeue-Regular.otf);
 }
+ @font-face {
+	    font-family: Open-Sans;
+	    src: local("Open-Sans");
+        src: url(../fonts/OpenSans-Regular.ttf);
+  }
 body{
 	width: 100%;
 	height: auto;
@@ -426,13 +431,23 @@ body{
 	margin: 0;
 	background: #ffffff;
 }
-.products div:last-child div:first-child,
-.products div:last-child div:nth-child(4){
+.products div:last-child div:first-child{
 	margin: 48px 0 47px 218px;
 }
-.products div:last-child div:nth-child(3),
-.products div:last-child div:nth-child(6){
+.products div:last-child div:nth-child(2){
+	margin: 48px 0 47px 0;
+}
+.products div:last-child div:nth-child(3){
 	margin: 48px 213px 47px 0;
+}
+.products div:last-child div:nth-child(4){
+	margin: 0 0 47px 218px;
+}
+.products div:last-child div:nth-child(5){
+	margin: 0 0 47px 0;
+}
+.products div:last-child div:nth-child(6){
+	margin: 0px 213px 47px 0;
 }
 .products div:last-child div{
 	display: block;
@@ -503,4 +518,61 @@ body{
 	padding: 0;
 	margin: 75px 0 0 0;
 	background: #3cc395;
+}
+.footer{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 383px;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+}
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	height: 337px;
+	padding: 0;
+	margin: 0;
+}
+.nav div:first-child{
+	margin: auto 0 auto 189px;
+}
+.nav div:last-child{
+	margin: auto 251px auto 0;
+}
+.nav div{
+	display: block;
+	width: auto;
+	height: 277px;
+	padding: 0;
+	margin: auto 0;
+}
+.nav div p{
+	color: #ffffff;
+	font-family: "BebasNeue";
+	font-size: 27px;
+	line-height: 25px;
+	margin: 0 auto;
+}
+.nav div ul{
+	list-style: none;
+	padding: 0;
+	margin: 27px 0 0 3px;
+}
+.nav div ul li{
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 15px;
+	line-height: 28px;
+}
+.footer>div:last-child{
+	display: block;
+	width: 100%;
+	height: 46px;
+	padding: 0;
+	margin: 0;
+	background: #2da89b;
 }
