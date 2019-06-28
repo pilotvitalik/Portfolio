@@ -89,6 +89,7 @@ body{
 	margin: 0;
 	color: white;
 }
+/*Блок с корзиной и ценой*/
 .header div:first-child .box{
 	display: flex;
 	flex-direction: row;
@@ -97,6 +98,9 @@ body{
 	height: 37px;
 	padding: 0;
 	margin: auto 149px auto 0;
+}
+.header div:first-child .box:hover{
+	cursor: pointer;
 }
 .header div:first-child .box img{
 	display: block;
@@ -114,7 +118,7 @@ body{
 	font-family: "BebasNeue", sans-serif;
 	font-size: 35px;
 }
-
+/*Навигационное меню*/
 .header ul{
 	display: flex;
 	flex-direction: row;
@@ -161,9 +165,10 @@ body{
 	margin: 0;
 	background: #3bc9b6;
 }
+/*Рекламная запись в баннере*/
 .common .banner div:first-child{
 	display: flex;
-	flex-direction: row;
+	flex-direction: row;	
 	flex-wrap: wrap;
 	width: 781px;
 	height: 325px;
@@ -171,7 +176,7 @@ body{
 	margin: 67px auto 0 auto;
 }
 .common .banner div:first-child img:first-child{
-	display: block;
+	display: block;	
 	z-index: 1;
 	width: 278px;
 	height: 100%;
@@ -189,7 +194,7 @@ body{
 .common .banner div:first-child form{
 	display: flex;
 	flex-direction: column;
-	width: 503px;
+	width: 501px;
 	height: 100%;
 	padding: 0;
 	margin: 0;
@@ -231,6 +236,7 @@ body{
 .common .banner div:first-child form button:hover{
 	cursor: pointer;
 }
+/*Кнопки переключения между записями*/
 .common .banner ul{
 	display: flex;
 	flex-direction: row;
@@ -567,6 +573,9 @@ body{
 	font-family: "Open Sans";
 	font-size: 15px;
 	line-height: 28px;
+}
+.nav div ul li:hover{
+	cursor: pointer;
 }
 .footer>div:last-child{
 	display: block;
