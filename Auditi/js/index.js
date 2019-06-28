@@ -1,5 +1,5 @@
 let body=document.querySelector("body");
-let img = [	'img/product_breeches.png',
+let img = [	'img/categories_breeches_banner.png',
 			'img/product_woman_bag.png',
 			'img/product_white_tees.png',
 			'img/Banner_Levis.png',
@@ -18,28 +18,54 @@ let parag = ['Facilisi etiam dignissim diam quis enim lobortis scelerisque ferme
 
 
 function imageRotator(i) {
-  $('.banner div:first-child img:nth-child(2)').css('display','none')
   $('.banner div:first-child img:first-child').attr("src",img[i])
   $('.common .banner div:first-child form h4').text(name[i])
   $('.common .banner div:first-child form p').text(parag[i])
 
   i++;
-  if (i == 4){$('.banner div:first-child img:nth-child(2)').css('display','block')
+  if (i == 1 || 2 || 4){$('.banner div:first-child img:nth-child(2)').css('display','block')
   			 	$('.banner div:first-child form h4').css('height','97px')
   				$('.banner div:first-child form h4').css('margin','15px 97px 26px 101px')
   				$('.banner div:first-child form p').css('margin','0 0 29px 101px')
 };
-  if (i == 3){$('.banner div:first-child form h4').css('height','47px')
+  if (i == 3){
+          $('.banner div:first-child img:nth-child(2)').css('display','none')
+          $('.banner div:first-child form h4').css('height','47px')
   			  $('.banner div:first-child form h4').css('margin','15px 97px 0 101px')
   			  $('.banner div:first-child form p').css('margin','auto 0 auto 101px')
   			  $('.banner div:first-child form button').css('margin','0 0 45px 104px')
+          $('.banner ul li:nth-child(3)').css('background','#79d8cc')
+}else{
+  $('.banner ul li:nth-child(3)').css('background','#ffffff')
 };
-  if (i == 5){$('.banner div:first-child form h4').css('height','47px');
+  if (i == 5){
+          $('.banner div:first-child img:nth-child(2)').css('display','none')
+          $('.banner div:first-child form h4').css('height','47px');
   			  $('.banner div:first-child form h4').css('margin','15px 97px 0px 101px');
   			  $('.banner div:first-child form p').css('margin','auto 0 auto 101px');
   			  $('.banner div:first-child form button').css('margin','0 0 45px 104px');
+          $('.banner ul li:last').css('background','#79d8cc');
   			  i = 0;
 };
+  if (i == 1){
+          $('.banner ul li:first').css('background','#79d8cc');
+          $('.banner ul li:last').css('background','#ffffff')
+          $('.banner div:first-child img:nth-child(2)').css('display','none')
+  }else{
+          $('.banner ul li:first').css('background','#ffffff')
+  }
+    if (i == 2){
+          $('.banner ul li:nth-child(2)').css('background','#79d8cc')
+          $('.banner div:first-child img:nth-child(2)').css('display','none')
+  }else{
+          $('.banner ul li:nth-child(2)').css('background','#ffffff')
+  }
+    if (i == 4){
+          $('.banner ul li:nth-child(4)').css('background','#79d8cc')
+  }else{
+          $('.banner ul li:nth-child(4)').css('background','#ffffff')
+  }
+
   setTimeout("imageRotator(" + i + ")", 3000);
 }
 
