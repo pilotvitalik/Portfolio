@@ -157,35 +157,21 @@ body{
 	margin: 0;
 }
 .common .banner{
-	display: block;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	height: 446px;
 	padding: 0;
 	margin: 0;
 	background: #3bc9b6;
 }
-.banner>div:first-child{
-	display: flex;
-	position: absolute;
-	width: 100%;
-	animation: animate 100s linear infinite;
-}
-@keyframes animate{
-	0%{
-		left:0;
-	}
-	20%{
-		left:-100%;
-	}
-	40%{
-		left:-200%;
-	}
-}
 /*Рекламная запись в баннере*/	
 #breeches,
 #womanBag,
 #whiteTees,
-#darkTees,
+#darkTees{
+	display: none;
+}
 #levis{
 	display: flex;
 	flex-direction: row;	
@@ -277,6 +263,17 @@ body{
 }
 .common .banner ul li:hover{
 	cursor: pointer;
+}
+.common .banner ul li:first-child{
+	animation: animate 1960ms steps(1, end);
+} 
+@keyframes animate{
+	0%{
+		background: green;
+	}
+	100%{
+		background: white;
+	}
 }
 .categories{
 	display: flex;
