@@ -156,125 +156,77 @@ body{
 	padding: 0;
 	margin: 0;
 }
-.common .banner{
-	display: flex;
-	flex-direction: column;
+.banner{
+	position: relative;
 	width: 100%;
 	height: 446px;
 	padding: 0;
 	margin: 0;
 	background: #3bc9b6;
+
 }
-/*Рекламная запись в баннере*/	
-#breeches,
-#womanBag,
-#whiteTees,
-#darkTees{
-	display: none;
-}
-#levis{
-	display: flex;
-	flex-direction: row;	
-	flex-wrap: wrap;
+.banner>div:first-child{
+	height: auto;
 	width: 781px;
-	height: 325px;
 	padding: 0;
 	margin: 67px auto 0 auto;
+
 }
-.mainImg{
-	display: block;	
-	z-index: 1;
-	width: 278px;
-	height: 100%;
-	padding: 0;
-	margin: 0;
+.banner>div:first-child .item,
+.banner>div:first-child div form,
+.banner>div:first-child div form img{
+	height: 318px;
 }
-#levis img:nth-child(2){
+.banner>div:first-child div form img{
 	display: block;
-	position: absolute;
-	width: 213px;
-	height: 24px;
-	padding: 0;
-	margin: 313px 0 0 36px;
-} 
-.bannerForm{
-	display: flex;
-	flex-direction: column;
-	width: 501px;
-	height: 100%;
-	padding: 0;
-	margin: 0;
+	width: 278px;
+	float: left;
+	
 }
-.nameBanner,
-.paragraphBanner{
+
+.banner>div:first-child div form h4{
 	display: inline-block;
-	color: #ffffff;
-	font-family: "BebasNeue";
-}
-.nameBanner{
-	width: 305px;
+	width: 330px;
 	height: 97px;
-	margin: 15px 97px 26px 101px;
-	font-size: 61px;	
+	color: #ffffff;
+	margin: 0 0 0 101px;
+	font-family: "BebasNeue";
+	font-size: 61px;
 	line-height: 54px;
 }
-.paragraphBanner{
-	width: 402px;
+.banner>div:first-child div form p{
+	display: inline-block;
+	position: absolute;
+	width: 398px;
 	height: 73px;
-	margin: 0 0 29px 101px;
-	font-size: 17px;	
+	color: #ffffff;
+	top: 80px;
+	left: 379px;
+	font-family: "OpenSans";
+	font-size: 17px;
 	line-height: 28px;
 }
-.bannerForm button{
+.banner>div:first-child div form button{
 	display: block;
+	position: absolute;
 	width: 133px;
 	height: 40px;
-	margin: 0 260px 39px 104px;
 	color: #ffffff;
-	font-family: "BebasNeue";
-	font-size: 27px;	
-	line-height: 19px;
 	background: transparent;
-	outline: 0;
+	padding: 3px 0 0 0;
+	left: 379px;
+	bottom: 42px;
+	font-family: "BebasNeue";
+	font-size: 27px;
+	line-height: 19px;
 	border: solid 3px #ffffff;
 	border-radius: 7px;
+	outline: 0;
 }
-.bannerForm button:hover{
+.banner>div:first-child div form button:hover{
 	cursor: pointer;
 }
-/*Кнопки переключения между записями*/
-.common .banner ul{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 96px;
-	height: 9px;
-	padding: 0;
-	margin: 0 0 0 49.5%;
-}
-.common .banner ul li{
-	display: block;
-	width: 9px;
-	height: 9px;
-	padding: 0;
-	margin: 0;
-	border-radius: 9px;
-	background-color: #ffffff;
-}
-.common .banner ul li:hover{
-	cursor: pointer;
-}
-.common .banner ul li:first-child{
-	animation: animate 1960ms steps(1, end);
-} 
-@keyframes animate{
-	0%{
-		background: green;
-	}
-	100%{
-		background: white;
-	}
-}
+
 .categories{
 	display: flex;
 	flex-direction: row;
