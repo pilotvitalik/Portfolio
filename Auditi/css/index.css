@@ -226,7 +226,6 @@ body{
 .banner>div:first-child div form button:hover{
 	cursor: pointer;
 }
-
 .categories{
 	display: flex;
 	flex-direction: row;
@@ -237,44 +236,72 @@ body{
 	margin: 0;
 	background: #ffffff;
 }
-.categories .prev,
-.categories .next{
-	display: block;
-	width: 29px;
-	height: 88px;
-	padding: 0;
-	margin: auto 0;
-	background: transparent;
-	border: none;
-	outline: 0;
+.categories li div{
+	display: flex;
+	flex-direction: row;
+	width: 339px;
+    height: 100%;
+    margin: 0 auto;
 }
-.categories .prev:hover,
-.categories .next:hover{
+.categories li div img{
+	display: block;
+	float: left;
+	height: 137px;
+    margin: 26.5px 0 0 0;
+}
+.categories li div h5{
+	display: inline-block;
+	width: 75px;
+	height: 44px;
+	margin: 54.5px 0 0 30px;
+	text-align: left;
+	color: #afafaf;
+	font-family: "BebasNeue";
+	font-size: 27px;	
+	line-height: 25px;
+}
+.categories li div button{
+	display: inline-block;
+	width: 59px;
+	height: 32px;
+	padding: 0;
+	top: 20px;
+	margin: 120px 0 0 -75px;
+	color: #ffffff;
+	font-family: "BebasNeue";
+	font-size: 19px;	
+	line-height: 34px;
+	background: #3cc395;
+	outline: 0;
+	border: none;
+	border-radius: 5px;
+}
+.categories li div button:hover{
 	cursor: pointer;
 }
-.categories div img{
+/*.categories li div img{
 	display: block;
 	float: left;
 	padding: 0;
 	margin: 0;
 }
-.categories div h5{
+.categories li div h5{
 	display: inline-block;
 	color: #afafaf;
 	font-family: "BebasNeue";
 }
-.categories div:nth-child(2){
+.categories li:first-child div{
 	display: block;
-	width: 277px;
+	width: 100px;
 	height: 151px;
 	padding: 0;
 	margin: auto 0;
 }
-.categories div:nth-child(2) img{
+.categories li:first-child div img{
 	width: 202px;
 	height: 100%;
 }
-.categories div:nth-child(2) h5{
+.categories li:first-child div h5{
 	
 	width: 75px;
 	height: 44px;
@@ -284,10 +311,10 @@ body{
 	font-size: 27px;	
 	line-height: 25px;
 }
-.categories div button:hover{
+.categories li div button:hover{
 	cursor: pointer;
 }
-.categories div:nth-child(2) button{
+.categories li:first-child div button{
 	display: block;
 	width: 59px;
 	height: 32px;
@@ -301,25 +328,25 @@ body{
 	border: none;
 	border-radius: 5px;
 }
-.categories div:nth-child(3){
+.categories li:nth-child(2) div{
 	display: block;
 	width: 260px;
 	height: 132px;
 	padding: 0;
 	margin: auto 0;
 }
-.categories div:nth-child(3) img{
+.categories li:nth-child(2) div img{
 	width: 132px;
 	height: 132px;
 }
-.categories div:nth-child(3) h5{
+.categories li:nth-child(2) div h5{
 	width: 76px;
 	height: 44px;
 	margin: 28px 0 20px 52px;
 	font-size: 27px;	
 	line-height: 25px;
 }
-.categories div:nth-child(3) button{
+.categories li:nth-child(2) div button{
 	display: inline-block;
 	width: 59px;
 	height: 32px;
@@ -333,26 +360,26 @@ body{
 	border: none;
 	border-radius: 5px;
 }
-.categories div:nth-child(4) {
+.categories li:nth-child(3) div {
 	display: block;
 	width: 223px;
 	height: 127px;
 	padding: 0;
 	margin: auto 0;
 }
-.categories div:nth-child(4) img{
+.categories li:nth-child(3) div img{
 	width: 71px;
 	height: 100%;
 	margin: 0;
 }
-.categories div:nth-child(4) h5{
+.categories li:nth-child(3) div h5{
 	width: 75px;
 	height: 44px;
 	margin: 28px 0 20px 77px;
 	font-size: 27px;	
 	line-height: 25px;
 }
-.categories div:nth-child(4) button{
+.categories li:nth-child(3) div button{
 	display: inline-block;
 	width: 59px;
 	height: 32px;
@@ -365,7 +392,7 @@ body{
 	background: #3cc395;
 	border: none;
 	border-radius: 5px;
-}
+} */
 .products{
 	display: flex;
 	flex-direction: column;
