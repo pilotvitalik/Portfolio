@@ -1,0 +1,496 @@
+@font-face {
+    font-family: Roboto;
+    src: local("Roboto"), url(../fonts/Roboto-Regular.ttf);
+}
+/*-----------------------------------
+Common styles for the most elements
+-----------------------------------*/
+body,
+form{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	width: 978px;
+	height: auto;
+	padding: 0;
+	margin: 0 auto;
+}
+fieldset{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.--legend{
+	display: inline;
+	color: #000000;
+	font-family: "Roboto";
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 23px;
+}
+.--label{
+	display: inline-block;
+	margin-bottom: 19px;
+	color: #000000;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 16px;
+}
+.--input,
+.aboutPerson_familyStat select,
+.owner select{
+	display: inline-block;
+	width: 440px;
+	height: 43px;
+	padding-left: 17px;
+	color: #616161;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 16px;
+	border: solid 1px #d7d7d7;
+}
+/*-----------------------------------
+Выравнивание блоков анкеты
+-----------------------------------*/
+.--block{
+	display: flex;
+	flex-direction: column;
+	width: 461px;
+	height: auto;
+	margin: 0;
+	float: left;
+}
+.--block-right{
+	float: right;
+}
+/*-----------------------------------
+Раздел "Заполните анкету"
+-----------------------------------*/
+.nameEmail{
+	margin-top: 34px;
+}
+.mobile{
+	margin-top: 31px;
+}
+.familyChild{
+	margin-top: 26px;
+}
+.kindred{
+	width: 100%;
+	margin-top: 26px;
+}
+.aboutPerson_email{
+	padding: 0;
+	width: 461px;
+}
+.aboutPerson_email .--input{
+	width: 442px;
+}
+.aboutPerson_phone div:nth-child(2),
+.typeEmploy_phoneCo div:nth-child(2),
+.kindred label div:nth-child(3){
+	display: inline-block;
+	width: 49px;
+	height: 43px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 45px;
+	border: solid 1px #d7d7d7;
+}
+.aboutPerson_phone .--input,
+.typeEmploy_phoneCo .--input{
+	width: 392px;
+	height: 41px;
+	margin-top: -45px;
+	margin-left: 50px;
+}
+.aboutPerson_familyStat select,
+.owner select{
+	width: 100%;
+	background: #ffffff;
+	border: solid 1px #d7d7d7;
+	outline: none;
+	color: #000000;
+}
+.kindred{
+	width: 976px;
+}
+.kindred label{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-bottom: 16px;
+}
+.kindredDegree{
+	margin: 0 26px 0 30px;
+}
+.kindred label div:nth-child(3){
+	width: 75px;
+	height: 45px;
+	border-right: none;
+}
+.kindredMobile{
+	width: 400px;
+}
+/*-----------------------------------
+Раздел "Адрес"
+-----------------------------------*/
+.adress{
+	margin-top: 42px;
+}
+.adress_reg{
+	flex-direction: row;
+	height: 19px;
+	margin-top: 39px;
+	margin-bottom: 55px;
+	padding: 0;
+}
+.adress_reg label{
+	margin: 0;
+	font-size: 17px;
+	line-height: 17px;
+}
+.adress_reg input[type='checkbox']{
+	width: 17px;
+	height: 17px;
+	margin: 0;
+	margin-left: 20px;
+}
+.adress_actual_in{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 974px;
+	height: auto;
+	padding: 0;
+	margin-bottom: 27px;
+}
+.adress_actual_index,
+.adress_actual_index .--input{
+	width: 96px;
+}
+.adress_actual_region,
+.adress_actual_region .--input{
+	width: 311px;
+}
+.adress_actual_city,
+.adress_actual_city .--input{
+	width: 440px;
+}
+.adress_actual_city .--input{
+	width: 421px;
+}
+.g{
+	width: 204px;
+}
+.gg{
+	width: 185px;
+}
+.h{
+	width: 78px;
+}
+.hh{
+	width: 59px;
+}
+.owner{
+	height: 115px;
+}
+.owner .--label{
+	margin-top: 17px;
+}
+.owner select{
+	height: 46px;
+	margin-top: 16px;
+}
+.adress_durat_owner{
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+}
+.adress_duration .--label{
+	line-height: 24px;
+}
+/*-----------------------------------
+Раздел "Работа"
+-----------------------------------*/
+.typeEmploy{
+	margin-top: 65px;
+}
+.typeEmploy_type{
+	display: flex;
+	flex-direction: row;
+	width: 603px;
+	height: auto;
+	float: left;
+	margin-top: 31px;
+	padding: 0;
+}
+.typeEmploy_type label{
+	margin: 9px 0 0 0;
+}
+.aboutPerson_child div input,
+.typeEmploy_type input,
+.typeEmploy_bankrupt div input{
+	width: 34px;
+	height: 34px;
+	margin: 0;
+	margin-left: 21px;
+}
+.typeEmploy_type label:nth-child(3){
+	margin-left: 82px;
+}
+.typeEmploy_type label:nth-child(5){
+	margin-left: 86px;
+}
+.typeEmploy_sphere,
+.typeEmploy_notConfirm,
+.typeEmploy_phone{
+	margin-top: 39px;
+}
+.typeEmploy_notConfirm{
+	flex-direction: row;
+	width: 399px;
+	height: 82px;
+	float: left; 
+	padding: 0;
+}
+.typeEmploy_notConfirm input{
+	width: 17px;
+	height: 17px;
+	margin: 0 0 0 5px;
+}
+.typeEmploy_notConfirm label{
+	line-height: 17px;
+	vertical-align: top;
+}
+.typeEmploy_number,
+.typeEmploy_direct,
+.typeEmploy_phoneCo{
+	margin-top: 26px;
+}
+.typeEmploy_addWork{
+	flex-direction: row;
+	margin-top: 38px;
+	height: 28px;
+	padding: 0;
+
+}
+.typeEmploy_addWork div:first-child{
+	width: 28px;
+	height: 28px;
+	margin: 0 26px 0 0;
+	background: #d4d4d4;
+}
+.typeEmploy_addWork>span{
+	height: 16px;
+	margin: 6px 0 0 0;
+}
+.typeEmploy_site,
+.typeEmploy_share{
+	margin-top: 22px;
+}
+.typeEmploy_asset{
+	width: 540px;
+	margin-top: 55px;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.typeEmploy_asset span{
+	width: 100%;
+	margin: 0;
+}
+.typeEmploy_asset div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 49.61%;
+	padding-top: 30px;
+}
+.typeEmploy_asset div{
+
+}
+.typeEmploy_asset div input{
+	width: 17px;
+	height: 17px;
+	padding: 0;
+	margin-right: 20px;
+}
+.aboutPerson_child div input:hover,
+.adress_reg input:hover,
+.typeEmploy_type input:hover,
+.typeEmploy_notConfirm input:hover,
+.typeEmploy_asset div input:hover,
+.typeEmploy_addWork div:first-child:hover,
+.typeEmploy_credit input:hover,
+.typeEmploy_bankrupt_phone input:hover{
+	cursor: pointer;
+}
+.--asset-top{
+	margin-top: 33px;
+}
+.--asset-top-input{
+	margin-top: 33px;
+}
+.--asset{
+	display: inline-block;
+	width: 80%;
+	height: 17px;
+	font-size: 17px;
+	line-height: 17px;
+}
+.v--input label:nth-child(2){
+	margin-top: 3px;
+}
+.typeEmploy_credit{
+	flex-direction: row;
+	width: 100%;
+	height: 17px;
+	margin-top: 70px;
+}
+.typeEmploy_credit input{
+	width: 17px;
+	height: 17px;
+	margin: 2px 0 0 25px;
+}
+.typeEmploy_bankrupt,
+.typeEmploy_profit{
+	margin-top: 48px;
+}
+.typeEmploy_bankrupt_phone,
+.aboutPerson_child div{
+	display: flex;
+	height: 34px;
+	padding: 0;
+}
+.typeEmploy_bankrupt_phone label:first-child{
+	margin-left: 17px;
+}
+.typeEmploy_bankrupt_phone label,
+.aboutPerson_child div label{
+	height: 34px;
+	line-height: 34px;
+}
+.typeEmploy_bankrupt_phone>input:nth-child(2){
+	margin-right: 74px;
+}
+.aboutPerson_child div input:nth-child(2){
+	margin-right: 99px;
+}
+.typeEmploy_profit{
+	margin-bottom: 50px;
+}
+button{
+	display: inline-block;
+	width: 270px;
+	height: 49px;
+	margin: 0 36.2%;
+	background: #2396ca;
+	border-radius: 25px;
+	border: none;
+	color: #fff;
+	font-family: 'Roboto';
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+button:hover{
+	cursor: pointer;
+	outline: none;
+}
+.typeEmploy_sphere{
+	width: 100%;
+}
+.typeEmploy_sphere .--input{
+	width: 98%;
+}
+.typeEmploy_phoneCo{
+	height: 82px;
+	padding: 0;
+	justify-content: spce-between;
+}
+.typeEmploy_phoneCo .--input{
+	height: 43px;
+	margin-top: 1px;
+}
+.typeEmploy_phoneCo>div:nth-child(2){
+	position: absolute;
+	height: 44px;
+	width: 49px;
+	margin-top: 36px;
+}
+/*-----------------------------------
+Доб. элементам спец. стиля
+-----------------------------------*/
+.arrow{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	margin-top: 36px;
+	margin-left: 409px;
+	background: #fff;
+	pointer-events: none;
+}
+.arrow div{;
+	width: 0;
+	height: 0;
+	margin: 15.5px 0 0 17px;
+	border-style: solid;
+	border-color: #2396ca transparent transparent transparent;
+	border-width: 14px 10px 0 10px;
+}
+.arrow--owner{
+	margin-top: 71px;
+}
+.typeEmploy_addWork div span{
+	position: absolute;
+	display: inline-block;
+	width: 14px;
+	height: 4.5px;
+	margin: 11.5px 7px;
+	pointer-events: none;
+	background: #000;
+}
+.typeEmploy_addWork div span:nth-child(2){
+	width: 4.5px;
+	height: 14px;
+	margin: 7px 11.5px;
+}
+.v--input input[type='checkbox']:before{
+  content:'';
+  display:block;
+  width:90%;
+  height:90%;
+  background: #fff;
+  border: solid 2px #b8b8b8;
+}
+.v--input input[type='checkbox']:checked:before{
+  background: url('../img/v.png') #fff;
+  background-size: cover;
+  border-color: #2396ca; 
+  outline: none;
+}
+.v--input input[type='radio']:before{
+  content:'';
+  display:block;
+  width:92%;
+  height:92%;
+  background: #fff;
+  border: solid 1px #ccc;
+  border-radius: 50%;
+}
+.v--input input[type='radio']:checked:before{
+  background: url('../img/o.png') #fff no-repeat;
+  background-size: 11px 11px;
+  background-position: 50% 50%;
+  border-color: #2396ca; 
+  outline: none;
+}
+.notvisible{
+	display: none;
+}
