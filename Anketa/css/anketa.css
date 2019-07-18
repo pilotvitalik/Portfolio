@@ -262,7 +262,7 @@ fieldset{
 .typeEmploy_notConfirm input{
 	width: 17px;
 	height: 17px;
-	margin: 0 0 0 5px;
+	margin: -1px 0 0 5px;
 }
 .typeEmploy_notConfirm label{
 	line-height: 17px;
@@ -355,7 +355,7 @@ fieldset{
 .typeEmploy_credit input{
 	width: 17px;
 	height: 17px;
-	margin: 2px 0 0 25px;
+	margin: -2px 0 0 25px;
 }
 .typeEmploy_bankrupt,
 .typeEmploy_profit{
