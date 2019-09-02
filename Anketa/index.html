@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang='ru'>
 <head>
 	<title>Анкета</title>
@@ -12,30 +11,35 @@
 			<fieldset class='aboutPerson'>
 				<legend class='--legend'>Заполните анкету</legend>
 				<div class='aboutPerson_name --block nameEmail'>
-					<label class='--label' for='name'>ФИО</label>
+					<label class='--label'>ФИО
 					<input class='--input' type="text" placeholder="Фамилия Имя Отчество" name="name">
+					</label>
 				</div>
 				<div class='aboutPerson_email --block --block-right nameEmail'>
-					<label class='--label' for='email'>E-mail</label>
+					<label class='--label'>E-mail
 					<input class='--input' type="email" placeholder="e-mail" name="email">
+					</label>
 				</div>
 				<div class='aboutPerson_phone --block mobile'>
-					<label class='--label' for='mobile'>Укажите мобильный телефон</label>
+					<label class='--label'>Укажите мобильный телефон
 					<div>+7</div>
 					<input class='--input  phonee' type="tel" placeholder="(123)4567890" name="mobile">
+					</label>
 				</div>
 				<div  class='aboutPerson_phone --block --block-right mobile'>
-					<label class='--label' for='fixedPhone'>Укажите стационарный телефон</label>
+					<label class='--label'>Укажите стационарный телефон
 					<div>+7</div>
 					<input class='--input phonee' type="tel" placeholder="(123)4567890" name="fixedPhone">
+					</label>
 				</div>
 				<div class='aboutPerson_familyStat --block familyChild'>
-					<label class='--label' for='familyStat'>Семейное положение</label>
+					<label class='--label'>Семейное положение
 					<select name='familyStat'>
 						<option>Холост</option>
 						<option>Женат</option>
 						<option>Замужем</option>
 					</select>
+					</label>
 					<div class='arrow'>
 						<div></div>
 					</div>
@@ -43,10 +47,12 @@
 				<div class='aboutPerson_child --block --block-right familyChild'>
 					<span class='--label'>Есть ли у Вас несовершенолетние дети</span>
 					<div class='v--input'>
-						<label class='--label' for='yy_person'>Да</label>
-						<input type="radio" name='child' value="yy_person" value='Да'>
-						<label class='--label' for='nn_person'>Нет</label>
-						<input type="radio" name='child' value="nn_person" value='Нет'>
+						<label class='--label'>Да
+						<input type="radio" name='child' value="yy_person">
+						</label>
+						<label class='--label'>Нет
+						<input type="radio" name='child' value="nn_person">
+						</label>
 					</div>
 				</div>
 				<div class='kindred --block'>
@@ -67,59 +73,70 @@
 			<fieldset class='adress'>
 				<legend class='--legend'>Адрес фактического места проживания</legend>
 				<div class='adress_reg --block v--input'>
-					<label class='--label' for='regCheck'>Совпадает с местом регистрации</label>
+					<label class='--label'>Совпадает с местом регистрации
 					<input type='checkbox' name='regCheck'>
+					</label>
 				</div>
 				<div class='adress_actual --block-right'>
 					<div class='adress_actual_in'>
 						<div class='adress_actual_index'>
-							<label class='--label' for='index'>Индекс</label>
+							<label class='--label'>Индекс
 							<input class='--input' type='text' placeholder='191023' name='index'>
+							</label>
 						</div>
 						<div class='adress_actual_region'>
-							<label class='--label' for='region'>Область</label>
+							<label class='--label'>Область
 							<input class='--input' type='text' placeholder='Ленинградская' name='region'>
+							</label>
 						</div>
 						<div class='adress_actual_city'>
-							<label class='--label' for='city'>Город</label>
+							<label class='--label'>Город
 							<input  class='--input' type='text' placeholder='Санкт-Петербург' name='city'>
+							</label>
 						</div>
 					</div>
 					<div class='adress_actual_in'>
 						<div class='adress_actual_area g'>
-							<label class='--label' for='area'>Район</label>
+							<label class='--label'>Район
 							<input  class='--input gg' type='text' placeholder='Адмиралтейский' name='area'>
+							</label>
 						</div>
 						<div class='adress_actual_street g'>
-							<label class='--label' for='street'>Улица</label>
+							<label class='--label'>Улица
 							<input  class='--input gg' type='text' placeholder='Ефимова' name='street'>
+							</label>
 						</div>
 						<div class='adress_actual_house h'>
-							<label class='--label' for='house'>Дом</label>
+							<label class='--label'>Дом
 							<input  class='--input hh' type='text' placeholder='3' name='house'>
+							</label>
 						</div>
 						<div class='adress_actual_building h'>
-							<label class='--label' for='building'>Корпус</label>
+							<label class='--label'>Корпус
 							<input  class='--input hh' type='text' placeholder='1' name='building'>
+							</label>
 						</div>
 						<div class='adress_actual_flat h'>
-							<label class='--label' for='flat'>Квартира</label>
+							<label class='--label'>Квартира
 							<input  class='--input hh' type='text' placeholder='406' name='flat'>
+							</label>
 						</div>
 					</div>
 				</div>
 				<div class='adress_durat_owner --block'>
 					<div class='adress_duration --block'>
-						<label class='--label' for='duration'>Длительность проживания в регионе<br/> по фактическому адресу</label>
+						<label class='--label'>Длительность проживания в регионе<br/> по фактическому адресу
 						<input class='--input' type='text' placeholder='5 лет' name='duration'>
+						</label>
 					</div>
 					<div class='owner --block --block-right'>
-						<label class='--label' for='ownership'>Право проживания</label>
+						<label class='--label'>Право проживания
 						<select name='ownership'>
 							<option>Социальный наем</option>
 							<option>Частная собственность</option>
 							<option>Долевая собственность</option>
 						</select>
+						</label>
 						<div class='arrow arrow--owner'>
 							<div></div>
 						</div>
@@ -129,37 +146,46 @@
 			<fieldset class='typeEmploy'>
 				<legend class='--legend'>Укажите тип Вашей основной трудовой занятости</legend>
 				<div class='typeEmploy_type --block v--input'>
-					<label class='--label' for='hiring'>По найму</label>
+					<label class='--label'>По найму
 					<input type='radio' name='type' value='hiring'>
-					<label class='--label' for='indivBusin'>ИП</label>
+					</label>
+					<label class='--label'>ИП
 					<input type='radio' name='type' value='indivBusin'>
-					<label class='--label' for='ownerBusin'>Собственник бизнеса</label>
+					</label>
+					<label class='--label'>Собственник бизнеса
 					<input type='radio' name='type' value='ownerBusin'>
+					</label>
 				</div>
 				<div class='typeEmploy_sphere --block'>
-					<label class='--label' for='sphereEmploy'>Опишите сферу занятости компании</label>
+					<label class='--label'>Опишите сферу занятости компании
 					<input class='--input' type='text' name='sphereEmploy'>
+					</label>
 				</div>
 				<div class='typeEmploy_notConfirm v--input'>
-					<label class='--label' for='notConfirm'>Не могу документально подтвердить занятость</label>
+					<label class='--label'>Не могу документально подтвердить занятость
 					<input type='checkbox' name='notConfirm'>
+					</label>
 				</div>
 				<div class='typeEmploy_phone --block --block-right'>
-					<label class='--label' for='phoneEmploy'>Телефон работодателя</label>
+					<label class='--label'>Телефон работодателя
 					<input class='--input' type='text' name='phoneEmploy'>
+					</label>
 				</div>
 				<div class='typeEmploy_number --block'>
-					<label class='--label' for='numberWork'>Укажите кол-во сотрудников в компании</label>
+					<label class='--label'>Укажите кол-во сотрудников в компании
 					<input class='--input' type='text' placeholder='10' name='numberWork'>
+					</label>
 				</div>
 				<div class='typeEmploy_phoneCo --block --block-right mobile'>
-					<label class='--label' for='mobile'>Официальный телефон компании</label>
+					<label class='--label'>Официальный телефон компании
 					<div>+7</div>
 					<input class='--input phonee' type="text" placeholder="(123) 4567890" name="telCo" maxlength='12'>
+					</label>
 				</div>
 				<div class='typeEmploy_direct --block --block-right'>
-					<label class='--label' for='nameDirect'>ФИО руководителя</label>
+					<label class='--label'>ФИО руководителя
 					<input class='--input' type='text' placeholder='Фамилия Имя Отчество' name='nameDirect'>
+					</label>
 				</div>
 				<div class='typeEmploy_addWork --block'>
 					<div>
@@ -169,12 +195,14 @@
 					<span class='--label'>Дополнительное место работы</span>
 				</div>
 				<div class='typeEmploy_share --block --block-right'>
-					<label class='--label' for='site'>Доля в бизнесе</label>
+					<label class='--label'>Доля в бизнесе
 					<input class='--input' type='text' placeholder='50%' name='site'>
+					</label>
 				</div>
 				<div class='typeEmploy_site --block --block-right'>
-					<label class='--label' for='site'>Сайт компании</label>
+					<label class='--label'>Сайт компании
 					<input class='--input' type='url' placeholder='https://' name='site'>
+					</label>
 				</div>
 				<div class='typeEmploy_asset --block'>
 					<span class='--label'>Укажите имеющиеся активы</span>
@@ -196,8 +224,9 @@
 					</div>
 				</div>
 				<div class='typeEmploy_credit --block'>
-					<label class='--label' for='haveCredit'>У меня есть действующие кредиты</label>
+					<label class='--label'>У меня есть действующие кредиты
 					<input type='checkbox' name='haveCredit'>
+					</label>
 				</div>
 				<div class='typeEmploy_bankrupt --block'>
 					<span class='--label'>Применялась ли к Вам процедура банкротства?</span>
@@ -209,8 +238,9 @@
 					</div>
 				</div>
 				<div class='typeEmploy_profit --block --block-right'>
-					<label class='--label' for='addProfit'>Опишите Ваши дополнительные доходы при их наличии</label>
+					<label class='--label'>Опишите Ваши дополнительные доходы при их наличии
 					<input class='--input' type='text' placeholder='Не имеется' name='addProfit'>
+					</label>
 				</div>
 			</fieldset>
 			<button type="submit">Отправить</button>

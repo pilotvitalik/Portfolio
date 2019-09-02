@@ -1,441 +1,86 @@
-/*Переменные header*/
-.wrapper {
-  width: 100%;
-  height: auto;
-  background: #ffffff;
-}
 /*Заголовок сайта*/
 .header {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 100%;
-  height: 592.33749462px;
-  margin: 0 auto;
-  background: #f6f2f2;
+  height: 560px;
   /*Навигационное меню*/
  }
- .header .navbar {
-  display: block;
-  position: relative;
-  width: 79.1007%;
-  height: 76.62505381px;
-  padding: 0;
-  margin: 14.5px auto 0 auto;
-  background: #000000;
-  opacity: 80%;
- }
- .header .navbar .tab {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  width: 375.3766681px;
-  height: 100%;
-  padding: 0;
-  margin: 0 auto;
- }
- .header .navbar .tab p {
-  display: inline-block;
-  width: 77.48600947px;
-  height: 76.62505381px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 12.05337925px;
-  font-weight: 700;
-  line-height: 76.62505381px;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 0.49px;
-  margin: auto 0;
- }
- .header .navbar .tab p a {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  color: #e0e0e0;
- }
- .header .navbar .tab p a:hover {
-  background: #ff3f40;
- }
- .header .navbar .tab p:first-child {
-  background: #ff3f40;
-  width: 77.48600947px;
- }
- .header .content {
-  display: block;
-  position: relative;
-  width: 79.1007%;
-  height: 306.50021524px;
-  padding: 0;
-  margin: 88.67843306px auto 95.56607835px auto;
-  opacity: 80%;
- }
  .header .content div {
-  display: block;
-  position: relative;
-  width: 502px;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  float: left;
+  width: 405px;
  }
  .header .content div h4 {
-  display: inline-block;
-  position: relative;
-  padding: 0;
-  margin: 0;
-  vertical-align: middle;
-  font-family: "Open Sans", sans-serif;
-  font-size: 50px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  line-height: 45px;
-  color: #000000;
- }
- .header .content div h4:last-child {
-  margin: 15px 0 0 0;
-  letter-spacing: 6px;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 40px;
  }
  .header .content p {
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  top: 127.4214378px;
-  width: 440.80929832px;
-  height: 88.67843306px;
-  padding: 0;
-  color: black;
-  float: left;
-  opacity: 0.7;
-  font-family: "Open Sans", sans-serif;
-  font-size: 13.77529057px;
-  font-weight: 400px;
-  line-height: 28px;
-  text-align: justify;
- }
- .header .content p a {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  color: #000000;
- }
- .header .content p:hover {
-  cursor: pointer;
+  width: 405px;
+  top: 100px;
  }
  .header .content form {
-  display: block;
-  position: absolute;
-  float: left;
-  bottom: 10.33146793px;
-  left: 0;
-  width: 195.436935px;
-  height: 47.35256134px;
-  margin: 0;
-  padding: 0;
-  border-radius: 5px;
-  background: #ff2d2d;
+  bottom: 30px;
  }
  .header .content form button {
-  display: inherit;
-  position: inherit;
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-  color: #ffffff;
-  background: #ff2d2d;
-  font-family: "Open Sans", sans-serif;
-  font-size: 15.49720189px;
-  font-weight: 700;
-  line-height: 29.32414981px;
-  letter-spacing: 0.32px;
-  cursor: pointer;
+  border: none;
+  outline: none;
  }
  .header .content iframe {
-  display: block;
-  position: relative;
-  width: 47%;
-  max-width: 495px;
-  height: 25.6vw;
-  max-height: 340px;
-
-  margin: 0;
-  padding: 0;
-  color: black;
-  float: right;
-  border: none;
+  margin: 20px 0 0 0;
 }
+
+
+
 /*Основная информация*/
 .provide {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 85%;
   height: 504.52001722px;
-  padding: 0;
-  margin: 92.9832px auto 0 auto;
  }
- .provide div:first-child{
-  display: flex;
-  width: 100%;
-  height: 500.52001722px;
- }
- .provide div:first-child .aboutUs{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-}
 .provide div:first-child .aboutUs h4{
-  display: inline-block;
-  position: relative;
-  width: 424.4511px;
-  height: 74.9031px;
-  margin: 5.1657px 0 0 0;
-  color: #000000;
-  font-family: "Open Sans", sans-serif;
-  font-size: 35.5px;
-  font-weight: 700;
-  line-height: 37px;
-  text-transform: uppercase;
-  letter-spacing: 0.42px;
+  width: 350px;
+  height: 110px;
 }
 .provide div:first-child .aboutUs p{
-  display: inline-block;
-  position: relative;
-  width: 438.2264px;
-  height: 84.3737px;
-  margin: 43.0478px 0 0 0;
-  font-family: "Open Sans", sans-serif;
-  font-size: 13.7753px;
-  line-height: 20px;
-  text-align: justify;
-}
-.provide div:first-child .aboutUs p a{
-  text-decoration: none;
-  color: #000000;
-}
-.provide div:first-child .aboutUs p a:hover{
-  cursor: pointer;
-}
-.provide div:first-child .aboutUs a{
-  width: 195.4369px;
-  height: 47.3526px;
-  padding: 0;
-  margin: 49.9354px 0 0 0;
-  border-radius: 5px;
-}
-.provide div:first-child .aboutUs a div{
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  border: solid 2px #ff0000;
-  border-radius: 5px;
-}
-.provide div:first-child .aboutUs a div span{
-  display: block;
-  position: relative;
-  width: 95px;
-  height: 18px;
-  padding: 0;
-  margin: 13px auto;
-  color: #ff2d2d;
-  font-family: "Open Sans", sans-serif;
-  font-size: 15.4972px;
-  font-weight: 700;
-  line-height: 18px;
-  letter-spacing: 0.32px;
+  width: 350px;
+  height: 100px;
 }
 .provide div:first-child .detailed{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 410.6759px;
-  padding: 0;
-  margin: 0 0 auto auto;
+  width: 1100px;
 }
 .provide div:first-child .detailed .managment{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 234.1799px;
-  height: 183.3836px;
-  padding: 0;
-  margin: 0 auto auto 0;
-}
-.provide div:first-child .detailed .managment img{
-  display: block;
-  position: inherit;
-  width: 35.2992px;
-  height: 35.2992px;
+  width: 225px;
+  height: 180px;
 }
 .provide div:first-child .detailed .managment h5{
-  display: inline-block;
-  position: relative; 
-  margin: 33px 0 9px 0;
-  color: #000000;
-  opacity: 0.7;
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.27px;
+  margin: 20px 0 9px 0;
 }
 .provide div:first-child .detailed .managment p{
-  display: inline-block;
-  position: relative;
-  height: 75px;
-  margin: auto 0 0 0;
-  font-size: 12.5px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 18px;
-  text-align: justify;
-}
-.provide div:first-child .detailed .managment p a{
-  text-decoration: none;
-  color: #000000;
-  opacity: 0.7;
-}
-.provide div:first-child .detailed .managment p a:hover{
-  cursor: pointer;
+  height: 90px;
 }
 .provide div:first-child .detailed .UI_UX{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 250.5381px;
-  height: 183.3836px;
-  padding: 0;
-  margin: 0 0 auto auto;
-}
-.provide div:first-child .detailed .UI_UX img{
-  display: block;
-  position: inherit;
-  width: 34.4382px;
-  height: 32.7163px;
+  width: 225px;
+  height: 180px;
 }
 .provide div:first-child .detailed .UI_UX h5{
-  display: inline-block;
-  position: relative; 
-  margin: 33px 0 9px 0;
-  color: #000000;
-  opacity: 0.7;
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.27px;
+  margin: 20px 0 9px 0;
 }
 .provide div:first-child .detailed .UI_UX p{
-  display: inline-block;
-  position: relative;
-  height: 75px;
-  margin: auto 0 0 0;
-  font-size: 12.5px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 18px;
-  text-align: justify;
-}
-.provide div:first-child .detailed .UI_UX p a{
-  text-decoration: none;
-  color: #000000;
-  opacity: 0.7;
-}
-.provide div:first-child .detailed .UI_UX p a:hover{
-  cursor: pointer;
+  height: 90px;
 }
 .provide div:first-child .detailed .logo{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 235.0409px;
-  height: 185.9664px;
-  padding: 0;
-  margin: auto auto 0 0;
-}
-.provide div:first-child .detailed .logo img{
-  display: block;
-  position: inherit;
-  width: 35.2992px;
-  height: 28.4115px;
+  width: 225px;/**/
 }
 .provide div:first-child .detailed .logo h5{
-  display: inline-block;
-  position: relative; 
-  margin: 33px 0 9px 0;
-  color: #000000;
-  opacity: 0.7;
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.27px;
+  margin: 20px 0 9px 0;
 }
 .provide div:first-child .detailed .logo p{
-  display: inline-block;
-  position: relative;
-  height: 75px;
-  margin: auto 0 0 0;
-  font-size: 12.5px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 18px;
-  text-align: justify;
-}
-.provide div:first-child .detailed .logo p a{
-  text-decoration: none;
-  color: #000000;
-  opacity: 0.7;
-}
-.provide div:first-child .detailed .logo p a:hover{
-  cursor: pointer;
+  height: 95px;
 }
 .provide div:first-child .detailed .animation{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 250.5381px;
-  height: 185.9664px;
-  padding: 0;
-  margin: auto 0 0 auto;
-}
-.provide div:first-child .detailed .animation img{
-  display: block;
-  position: inherit;
-  width: 37.882px;
-  height: 28.4115px;
+  width: 225px;/**/
 }
 .provide div:first-child .detailed .animation h5{
-  display: inline-block;
-  position: relative; 
-  margin: 33px 0 9px 0;
-  color: #000000;
-  opacity: 0.7;
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.27px;
+  margin: 20px 0 9px 0;
 }
 .provide div:first-child .detailed .animation p{
-  display: inline-block;
-  position: relative;
-  height: 75px;
-  margin: auto 0 0 0;
-  font-size: 12.5px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 18px;
-  text-align: justify;
-}
-.provide div:first-child .detailed .animation p a{
-  text-decoration: none;
-  color: #000000;
-  opacity: 0.7;
-}
-.provide div:first-child .detailed .animation p a:hover{
-  cursor: pointer;
-}
-.provide>div:last-child{
-  display: flex;
-  width: 99.6013%;
-  height: 2px;
-  margin: 0 auto;
-  background: #ececec;
+  height: 95px;
 }
 .product{
   display: flex;
