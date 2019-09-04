@@ -21,7 +21,7 @@
   width: 79.1007%;
   height: 76.62505381px;
   padding: 0;
-  margin: 14.5px auto 0 auto;
+  margin: 0 auto 0 auto;
   background: #000000;
   opacity: 80%;
  }
@@ -151,6 +151,7 @@
   line-height: 29.32414981px;
   letter-spacing: 0.32px;
   cursor: pointer;
+  border: none;
  }
  .header .content iframe {
   display: block;
@@ -159,7 +160,6 @@
   max-width: 495px;
   height: 25.6vw;
   max-height: 340px;
-
   margin: 0;
   padding: 0;
   color: black;

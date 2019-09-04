@@ -1,6 +1,6 @@
 .wrapper{width:100%;height:auto;background:#fff}
 .header{display:flex;position:relative;flex-direction:column;width:100%;height:592.33749462px;margin:0 auto;background:#f6f2f2}
-.header .navbar{display:block;position:relative;width:79.1007%;height:76.62505381px;padding:0;margin:14.5px auto 0 auto;background:#000;opacity:80%}
+.header .navbar{display:block;position:relative;width:79.1007%;height:76.62505381px;padding:0;margin:0 auto 0 auto;background:#000;opacity:80%}
 .header .navbar .tab{display:flex;position:relative;justify-content:space-between;width:375.3766681px;height:100%;padding:0;margin:0 auto}
 .header .navbar .tab p{display:inline-block;width:77.48600947px;height:76.62505381px;font-family:"Open Sans",sans-serif;font-size:12.05337925px;font-weight:700;line-height:76.62505381px;text-transform:uppercase;text-align:center;letter-spacing:.49px;margin:auto 0}
 .header .navbar .tab p a{display:inline-block;width:100%;height:100%;text-decoration:none;color:#e0e0e0}
@@ -14,7 +14,7 @@
 .header .content p a{display:inline-block;width:100%;height:100%;text-decoration:none;color:#000}
 .header .content p:hover{cursor:pointer}
 .header .content form{display:block;position:absolute;float:left;bottom:10.33146793px;left:0;width:195.436935px;height:47.35256134px;margin:0;padding:0;border-radius:5px;background:#ff2d2d}
-.header .content form button{display:inherit;position:inherit;width:100%;height:100%;border-radius:inherit;color:#fff;background:#ff2d2d;font-family:"Open Sans",sans-serif;font-size:15.49720189px;font-weight:700;line-height:29.32414981px;letter-spacing:.32px;cursor:pointer}
+.header .content form button{display:inherit;position:inherit;width:100%;height:100%;border-radius:inherit;color:#fff;background:#ff2d2d;font-family:"Open Sans",sans-serif;font-size:15.49720189px;font-weight:700;line-height:29.32414981px;letter-spacing:.32px;cursor:pointer;border:none}
 .header .content iframe{display:block;position:relative;width:47%;max-width:495px;height:25.6vw;max-height:340px;margin:0;padding:0;color:#000;float:right;border:none}
 .provide{display:flex;flex-direction:column;position:relative;width:85%;height:504.52001722px;padding:0;margin:92.9832px auto 0 auto}
 .provide div:first-child{display:flex;width:100%;height:500.52001722px}
